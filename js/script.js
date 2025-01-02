@@ -111,7 +111,7 @@ mainArr.map(item => {
 
         function drawFlakes() {
             ctx.clearRect(0, 0, w, h);
-            ctx.fillStyle = "yellow";
+            ctx.fillStyle = "blue";
             ctx.beginPath();
             for (i = 0; i < mf; i++) {
                 let f = flakes[i];
